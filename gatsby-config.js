@@ -33,6 +33,12 @@ module.exports = {
     },
     'gatsby-transformer-remark',
     'gatsby-transformer-sharp',
-    'gatsby-plugin-sharp'
+    'gatsby-plugin-sharp',
+    {
+      resolve: 'gatsby-plugin-google-analytics',
+      options: {
+        trackingId: 'UA-134671128-1'
+      }
+    }
   ]
 }
